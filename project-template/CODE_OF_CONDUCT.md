@@ -56,11 +56,12 @@ further defined and clarified by project maintainers.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported by contacting any one of the following project team members:
-  Darci Burdge <Darci.Burdge@ncc.edu>,
-  Heidi Ellis <Heidi.Ellis@wne.edu>,
-  Greg Hislop <hislopg@drexel.edu>,
-  Stoney Jackson <Stoney.Jackson@wne.edu>, or
-  Karl Wurst <Karl.Wurst@worcester.edu>.
+
+- Darci Burdge <Darci.Burdge@ncc.edu>
+- Heidi Ellis <Heidi.Ellis@wne.edu>
+- Greg Hislop <hislopg@drexel.edu>
+- Stoney Jackson <Stoney.Jackson@wne.edu>
+- Karl Wurst <Karl.Wurst@worcester.edu>
 
 All complaints will be reviewed and investigated and will result in a response that
 is deemed necessary and appropriate to the circumstances. The project team is
