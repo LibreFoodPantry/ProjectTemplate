@@ -20,12 +20,14 @@ To ensure a healthy and safe environment in which to collaborate and learn, and 
 - [FOSSisms](https://opensource.com/education/14/6/16-foss-principles-for-educators)
 
 
-## Connect
+## Communication Channels
 
 - "Watch" [LibreFoodPantry/Community](https://github.com/LibreFoodPantry/Community) to receive notifications as folks work to improve the community.
 - "Watch" specific [LibreFoodPantry](https://github.com/LibreFoodPantry) repositories or issues that you are interested in.
-- [Join our Discord server](https://discord.gg/h5RdTR4) to chat with other community members: get help, participate in meetings, participate in pair/mob-programming sessions, lurk,
+<!--
+- [Join our Discord server]() to chat with other community members: get help, participate in meetings, participate in pair/mob-programming sessions, lurk,
 or just socialize.
+-->
 
 
 ## Governance
