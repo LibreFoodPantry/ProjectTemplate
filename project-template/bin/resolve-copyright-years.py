@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# Copyright (c) 2019 The LibreFoodPantry Developers.
+# Copyright (C) 2019 The LibreFoodPantry Developers.
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -28,14 +28,14 @@ def main():
 def maybe_resolve_copyright_year(a_file):
     LANGLE = '<'
     RANGLE = '>'
-    pattern = 'Copyright (c) ' + LANGLE + 'YEAR' + RANGLE
+    pattern = 'Copyright (C) ' + LANGLE + 'YEAR' + RANGLE
     with a_file.open() as f:
         content = f.read()
     if pattern in content:
         response = input(f'Resolve copyright year in {a_file} [yN]? ')
         if response == 'y':
             year = datetime.now().year
-            content = content.replace(pattern, f'Copyright (c) {year}')
+            content = content.replace(pattern, f'Copyright (C) {year}')
             print('Resolving to', a_file)
             a_file.open('w').write(content)
 

@@ -40,7 +40,7 @@ working on one or more LFP projects. Shop managers receive elevated privileges o
 
 
 ---
-Copyright (c) 2019 The LibreFoodPantry Developers.
+Copyright (C) 2019 The LibreFoodPantry Developers.
 Permission is granted to copy, distribute and/or modify this document
 under the terms of the GNU Free Documentation License, Version 1.3
 or any later version published by the Free Software Foundation;
