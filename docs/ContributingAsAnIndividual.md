@@ -239,3 +239,14 @@ Tasks are used by teams to break down the implementation of a story into a
 set of tasks that can be completed by the team. In general, unless you are
 part of the team that created the task, you should probably leave the task
 alone. With one exception, stale tasks (> 2 month old) should be closed.
+
+
+---
+Copyright (c) 2019 The LibreFoodPantry Developers.
+Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.3
+or any later version published by the Free Software Foundation;
+with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+A copy of the license is included in the section entitled "GNU
+Free Documentation License". If not, see
+<https://www.gnu.org/licenses/fdl-1.3.txt>.

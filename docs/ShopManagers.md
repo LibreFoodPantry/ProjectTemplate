@@ -71,3 +71,14 @@ LFP Projects (upstream projects)
     * If a bug fix must be applied to a past release, we create a release branch from the release tag, cherry pick the fix, and create a new release number and tag on the release branch.
     * Releases earlier than the current major release will not be supported for more than two years
     * We create a new major release when at least one milestone has been completed.
+
+
+---
+Copyright (c) 2019 The LibreFoodPantry Developers.
+Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.3
+or any later version published by the Free Software Foundation;
+with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+A copy of the license is included in the section entitled "GNU
+Free Documentation License". If not, see
+<https://www.gnu.org/licenses/fdl-1.3.txt>.
