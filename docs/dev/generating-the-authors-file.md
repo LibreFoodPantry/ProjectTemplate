@@ -1,7 +1,16 @@
-# Style Guide
+# Generating the AUTHORS File
+
+Use `list-authors.py` to generate the AUTHORS file as follows.
+
+```bash
+$ bin/list-authors.py > AUTHORS
+```
+
+`list-authors.py` generates the list of authors based on `Author`
+and `Co-Authored-By` lines in the project's commit messages.
 
 ---
-Copyright (c) <YEAR> The LibreFoodPantry Developers.
+Copyright (c) 2019 The LibreFoodPantry Developers.
 Permission is granted to copy, distribute and/or modify this document
 under the terms of the GNU Free Documentation License, Version 1.3
 or any later version published by the Free Software Foundation;

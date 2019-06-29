@@ -1,9 +1,10 @@
 Copyright and Licensing
 =======================
 
-Each LFP project shall use the same licenses.
-For source code, the license shall be GPLv3.
-For documentation and content, the license shall be GFDLv1.3.
+- Each LFP project shall use the same licenses.
+- For source code, the license shall be GPLv3.
+- For documentation and content, the license shall be GFDLv1.3.
+- Contributors must sign-off on the Developer Certificate of Origin for each commit.
 
 
 Applying GPLv3 to source code
@@ -54,21 +55,6 @@ the following statement:
     A copy of the license is included in the section entitled "GNU
     Free Documentation License". If not, see
     <https://www.gnu.org/licenses/fdl-1.3.txt>.
-
-
-Generating AUTHORS from `git log`
----------------------------------
-
-We have provided a Python3 script `bin/generate-authors.py` that may be used
-to generate the AUTHORS file from `git log`. Run it from the root of the
-project as follows.
-
-    $ bin/generate-authors.py
-
-If you are satisfied by its output, run it again and redirect its output
-to AUTHORS.
-
-    $ bin/generate-authors.py > AUTHORS
 
 
 ---

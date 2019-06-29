@@ -1,6 +1,13 @@
-# Resolving Copyright Years
+# Resolve Years in Copyright Notices
 
-Replaces &lt;YEAR\> with the current year in all files that you approve.
+The provided copyright snippets contain a placeholder for the year: &lt;YEAR\>.
+You can either manually replace this with the current year, or you can use
+the `resolve-copyright-years.py` script.
+
+When you run `resolve-copyright-years.py` in the root of the project,
+it searches all files in the project for the &lt;YEAR\> placeholder. For each
+file it finds with this placeholder, it asks you if you want to replace it with
+the current year.
 
 ```bash
 $ bin/resolve-copyright-years.py
