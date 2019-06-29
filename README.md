@@ -1,28 +1,39 @@
 # LibreFoodPantry
 
+
 ## Vision
 
-LibreFoodPantry is a vibrant, welcoming community of clients, users and developers who believe in developing and maintaining humanitarian projects.  We enhance computer science education through involvement in instructor-led, free and open source software projects that support local food pantries.
+LibreFoodPantry is a vibrant, welcoming community of clients, users, and developers who believe in developing and maintaining humanitarian projects.  We enhance computer science education through involvement in instructor-led, free and open source software projects that support local food pantries.
+
 
 ## Mission
 
 Our mission is to expand a community of students and faculty across multiple institutions who believe software can be used to help society. We strive to support local food pantries with quality, adaptable, free and open source software (FOSS) to help them serve their guests.  Through learning opportunities within FOSS food pantry projects, we provide students with the perspective that computing can be used for social good.
 
+
 ## Values
-To ensure a healthy and safe environment in which to collaborate and learn, and to help establish and promote effective development practices, we have adopted the following values. We expect all community members to read and uphold these valuses.
+
+To ensure a healthy and safe environment in which to collaborate and learn, and to help establish and promote effective development practices, we have adopted the following values. We expect all community members to read and uphold these values.
 
 - [Code of conduct](https://github.com/LibreFoodPantry/.github/blob/master/CODE_OF_CONDUCT.md)
 - Agile [values](https://agilemanifesto.org/) and [principles](https://agilemanifesto.org/principles.html)
 - [FOSSisms](https://opensource.com/education/14/6/16-foss-principles-for-educators)
 
-## Join this community
 
-- [Join LibreFoodPantry on Google Groups](https://groups.google.com/forum/#!forum/LibreFoodPantry/join) - Be sure to tell us who you are and why you want to join.
+## Connect
 
-## Coordinating Committee
+- "Watch" [LibreFoodPantry/Community](https://github.com/LibreFoodPantry/Community) to receive notifications as folks work to improve the community.
+- "Watch" specific [LibreFoodPantry](https://github.com/LibreFoodPantry) repositories or issues that you are interested in.
+- [Join our Discord server](https://discord.gg/h5RdTR4) to chat with other community members: get help, participate in meetings, participate in pair/mob-programming sessions, lurk,
+or just socialize.
 
-- The Coordinating Committee meets most Fridays at 10 AM ET.
-- [View minutes](https://docs.google.com/document/d/1gpGWGhg9zVT4OAfoed0cuiybHz6v0wlWSiO7sfQRRIQ/edit?usp=sharing)
+
+## Governance
+
+LibreFoodPantry is guided by a Coordinating Committee comprised of Trustees and Shop Managers.
+
+- Learn more about [LibreFoodPantry Governance](docs/community/governance.md).
+- [View minutes and agendas](https://docs.google.com/document/d/1gpGWGhg9zVT4OAfoed0cuiybHz6v0wlWSiO7sfQRRIQ/edit?usp=sharing) of past and upcoming Coordinating Committee meetings minutes.
 
 
 ---
