@@ -1,0 +1,97 @@
+= Issue Tracker
+
+== Issues
+
+- Bug report - report incorrect behavior of the system
+- User stories - propose a new feature
+- Tech stories - propose a change that does not benefit a user directly
+- Spike stories - propose a time-boxed exploration to improve understanding
+- Question - ask a question
+- Discussion - discuss something that may ultimately lead to other issues being created
+- Task - something that needs to be done as part of resolving an issue (used to coordinate a team effort on an issue).
+- Pull-requests - associated with another issue contains the work to address that issue.
+
+
+== Labels
+
+.Type labels
+
+- `t: Bug`
+- `t: User`
+- `t: Tech`
+- `t: Spike`
+- `t: Question`
+- `t: Discussion`
+- `t: Task`
+
+
+.Size labels
+
+- `s: XS`
+- `s: S`
+- `s: M`
+- `s: L`
+- `s: XL`
+
+
+.Workflow labels
+
+- `w: Backlog` - prioritized and in discovery
+- `w: Ready` - ready for sprint (enough for the next 2 sprints)
+- `w: In progress` - PR and issue associated with it
+- `w: Ready for review` - ready for review
+- `w: Under review` - actively being reviewed
+- `w: Ready for merge`
+- `w: Done` - merge complete / task done
+- `w: To do` - Tasks to do (used by teams)
+- `w: Doing` - Tasks in progress (used by teams)
+
+.Flag labels
+
+- `f: Blocked`
+- `f: Stale`
+
+
+.Resolution labels
+
+- `r: Fixed`
+- `r: Implemented`
+- `r: Duplicate`
+- `r: Wrong tracker`
+- `r: Not reproduced`
+- `r: Missing info`
+- `r: Invalid`
+- `r: Abandoned`
+
+
+.Environment labels
+
+- `e: Development`
+- `e: Staging`
+- `e: Production`
+
+
+.Areas
+
+These vary by project.
+
+- `a: Frontend`
+- `a: Backend`
+
+
+
+== Boards
+
+* Product boards - used to prioritize and coordinate effort across a product.
+    - Backlog - Prioritized issues being refined
+    - Ready - Issues ready for work
+    - In progress - Issues and their PR
+    - Ready for review - Issues and their PR needing a review
+    - Under review - Issues and their PR being reviewed
+    - Ready for merge - Issues and their PR accepted for merge
+    - Done - Issues and their PR closed and merged
+* Team boards - used by teams to coordinate effort within a team.
+    - In progress - Issues and their PR being worked on by a team.
+    - To do - Tasks to be completed
+    - Doing - Tasks claimed and in progress
+    - Done - Tasks, issues, and PRs that are closed and merged.
