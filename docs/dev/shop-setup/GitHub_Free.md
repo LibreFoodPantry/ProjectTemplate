@@ -2,7 +2,7 @@
 
 ### Setting up the organization and user permissions:
 
-![GitHub Free Permissions Diagram](https://github.com/LibreFoodPantry/ProjectTemplate/tree/master/docs/dev/shop-setup/diagrams/GitHub_Free_Setup_Users_And_Permissions.png)
+![GitHub Free Permissions Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitHub_Free_Setup_Users_And_Permissions.png)
 
 
 #### Shop Manager:
@@ -13,7 +13,7 @@
 
 ### Setting up the shop project board:
 
-![GitHub Shop Board Diagram](https://github.com/LibreFoodPantry/ProjectTemplate/tree/master/docs/dev/shop-setup/diagrams/GitHub_Setup_Shop_Board.png)
+![GitHub Shop Board Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitHub_Setup_Shop_Board.png)
 
 
 #### Shop Manager:
@@ -30,7 +30,7 @@
 
 ### Setting up the repository:
 
-![GitHub Organizations and Repositories Diagram](https://github.com/LibreFoodPantry/ProjectTemplate/tree/master/docs/dev/shop-setup/diagrams/GitHub_Free_Organizations_And_Repositories.png)
+![GitHub Organizations and Repositories Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitHub_Free_Organizations_And_Repositories.png)
 
 #### Shop Manager:
 

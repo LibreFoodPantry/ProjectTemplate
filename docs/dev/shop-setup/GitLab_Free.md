@@ -2,7 +2,7 @@
 
 ### Setting up groups and user permissions:
 
-![GitLab Standalone Group Users & Permissions Diagram](https://github.com/LibreFoodPantry/ProjectTemplate/tree/master/docs/dev/shop-setup/diagrams/GitLab_Standalone_Group_Users_And_Permissions.png)
+![GitLab Standalone Group Users & Permissions Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitLab_Standalone_Group_Setup_Users_And_Permissions.png)
 
 #### Trustee:
 
@@ -18,7 +18,7 @@
 
 ### Setting up the shop issue board:
 
-![GitLab Shop Board Diagram](https://github.com/LibreFoodPantry/ProjectTemplate/tree/master/docs/dev/shop-setup/diagrams/GitLab_Setup_Shop_Board.png)
+![GitLab Shop Board Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitLab_Setup_Shop_Board.png)
 
 #### Shop Manager:
 
@@ -35,7 +35,7 @@
 
 ### Setting up the project:
 
-![GitLab Standalone Group Groups & Projects Diagram](https://github.com/LibreFoodPantry/ProjectTemplate/tree/master/docs/dev/shop-setup/diagrams/GitLab_Standalone_Group_Groups_And_Projects.png)
+![GitLab Standalone Group Groups & Projects Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitLab_Standalone_Group_Groups_And_Projects.png)
 
 #### Shop Manager:
 
