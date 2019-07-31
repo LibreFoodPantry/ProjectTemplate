@@ -1,32 +1,38 @@
-# GitLab Gold Shop Setup:
+# GitLab Gold Setup:
+
+This document is a guide for Shop Managers on setting up a shop subgroup or a standalone shop group on GitLab Gold that will be contributing to a LibreFoodPantry (LFP) project
 
 ## Option 1: Subgroup of LibreFoodPantry (inherits Gold features from LFP group)
 
-### Setting up groups and user permissions:
 
-![GitLab Gold Option 1 Users & Permissions Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitLab_Gold_Setup_Option1_Users_And_Permissions.png)
+## Setting up user permissions and the GitLab shop subgroup:
 
-#### Trustee:
 
-1. Add the shop manager to the LFP group with maintainer permissions
+### Trustee:
 
-2. Create a subgroup in LFP for the shop
+1. Add the Shop Manager to the LFP group with maintainer permissions
 
-3. Add the shop manager to the shop subgroup as an owner
+2. Create a subgroup under the LFP group for the shop
 
-4. Add the shop developers to the parent LFP group with reporter permissions
+3. Add the Shop Manager to the shop subgroup as an owner
 
-#### Shop Manager:
+4. Add the Shop Developers to the parent LFP group with reporter permissions
 
-1. Add the shop developers to the shop subgroup with developer permissions
+### Shop Manager:
 
-### Setting up the shop issue board:
+1. Add the Shop Developers to the shop subgroup with developer permissions
 
-![GitLab Shop Board Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitLab_Setup_Shop_Board.png)
 
-#### Shop Manager:
+### Users & permissions diagram:
+![GitLab Shop Board Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitLab_Gold_Setup_Option1_Users_And_Permissions.png)
 
-1. Create a new shop-level issue board
+
+## Setting up the shop issue board:
+
+
+### Shop Manager:
+
+1. Create a new shop group-level issue board to coordinate work across the shop
 
 2. Add a new column by clicking "Add list" and create a new group label for (and column) for each of the following (in order on the board from left to right):
     1. Backlog
@@ -37,41 +43,50 @@
 
 - You may need to click on the label in the add list menu for the list to be added to the board    
 
-### Setting up the project:
+- Note these columns are our recommendations from our preferred workflow, they can be changed to better suit your shop's workflow  
 
+### Shop group-level issue board diagram:
+![GitLab Shop Board Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitLab_Setup_Shop_Board.png)
+
+
+## Setting up the project:
+
+
+### Shop Manager:
+
+1. Fork the repository you will be working on from the LFP group to the shop group
+
+### GitLab Gold subgroup groups and projects diagram:
 ![GitLab Gold Option 1 Groups & Projects Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitLab_Gold_Setup_Option1_Groups_And_Projects.png)
-
-#### Shop Manager:
-
-1. Fork the repository you will be working on from the LFP group to the shop 
-
 
 
 ## Option 2: Standalone Group
 
-### Setting up groups and user permissions:
+## Setting up groups and user permissions:
 
-![GitLab Gold Standalone Group Users & Permissions Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitLab_Standalone_Group_Setup_Users_And_Permissions.png)
 
-#### Trustee:
+### Trustee:
 
 1. Add the shop manager to the LFP group with maintainer permissions
 
 2. Add the shop developers to the LFP group with reporter permissions
 
-#### Shop Manager:
+### Shop Manager:
 
 1. Create a GitLab group for the shop
 
 2. Add the shop developers to the shop group with developer permissions
 
-### Setting up the shop issue board:
+### Users & permissions diagram:
+![GitLab Gold Standalone Group Users & Permissions Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitLab_Standalone_Group_Setup_Users_And_Permissions.png)
 
-![GitLab Shop Board Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitLab_Setup_Shop_Board.png)
 
-#### Shop Manager:
+## Setting up the shop issue board:
 
-1. Create a new shop-level issue board
+
+### Shop Manager:
+
+1. Create a new shop group-level issue board to coordinate work across the shop
 
 2. Add a new column by clicking "Add list" and create a new group label for (and column) for each of the following (in order on the board from left to right):
     1. Backlog
@@ -80,19 +95,26 @@
     4. Needs Merge
     5. Done
 
-- You may need to click on the label in the add list menu for the list to be added to the board
+- You may need to click on the label in the add list menu for the list to be added to the board    
 
-### Setting up the project:
+- Note these columns are our recommendations from our preferred workflow, they can be changed to better suit your shop's workflow  
 
+### Shop group-level issue board diagram:
+![GitLab Shop Board Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitLab_Setup_Shop_Board.png)
+
+
+## Setting up the project:
+
+
+### Shop Manager:
+
+1. Fork the repository you will be working on from the LFP group to the shop group
+
+### GitLab groups & projects diagram:
 ![GitLab Gold Standalone Group Groups & Projects Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitLab_Standalone_Group_Groups_And_Projects.png)
 
-
-#### Shop Manager:
-
-1. Fork the repository you will be working on from the LFP group to the shop 
-
 ---
-Copyright (c) <YEAR> The LibreFoodPantry Developers.
+Copyright (c) 2019 The LibreFoodPantry Developers.
 Permission is granted to copy, distribute and/or modify this document
 under the terms of the GNU Free Documentation License, Version 1.3
 or any later version published by the Free Software Foundation;
