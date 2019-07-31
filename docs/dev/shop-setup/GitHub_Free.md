@@ -1,6 +1,7 @@
-# GitHub Free:
+# GitHub Free Setup:
 
-This document is a guide for shop managers on setting up a new shop organization on GitHub that will be contributing to a LFP project
+This document is a guide for Shop Managers on setting up a new shop organization on GitHub that will be contributing to a LibreFoodPantry (LFP) project
+
 
 ## Setting up the shop's GitHub organization:
 
@@ -9,12 +10,8 @@ This document is a guide for shop managers on setting up a new shop organization
 
 1. Create a new GitHub organization for the shop
 
+
 ## Setting up the shop's organization-level project board:
-
-
-### Shop organization-level project board diagram:
-
-![GitHub Shop Board Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitHub_Setup_Shop_Board.png)
 
 
 ### Shop Manager:
@@ -29,31 +26,36 @@ This document is a guide for shop managers on setting up a new shop organization
     4. Needs Merge
     5. Done
 
--Note these columns are our recommendations from our preferred workflow, they can be changed to better suit your shop's workflow  
+- Note these columns are our recommendations from our preferred workflow, they can be changed to better suit your shop's workflow  
+
+### Shop organization-level project board diagram:
+
+![GitHub Shop Board Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitHub_Setup_Shop_Board.png)
+
 
 ## Setting up the repository:
 
-
-### GitHub organizations & respositories diagram:
-![GitHub Organizations and Repositories Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitHub_Free_Organizations_And_Repositories.png)
 
 ### Shop Manager:
 
 1. Fork the repository you will be working on from the LibreFoodPantry organization to the shop organization
 
+### GitHub organizations & respositories diagram:
+![GitHub Organizations and Repositories Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitHub_Free_Organizations_And_Repositories.png)
+
 
 ## Setting up the shop's user permissions:
 
 
+### Shop Manager:
+
+1. Add the Shop Developers to the shop organization with member permissions
+
+2. Add the Shop Developers to the forked repository as contributors with write permissions
+
 ### Users & permissions diagram:
 
 ![GitHub Free Permissions Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitHub_Free_Setup_Users_And_Permissions.png)
-
-### Shop Manager:
-
-1. Add the shop developers to the shop organization with member permissions
-
-2. Add the shop developers to the forked repository as contributors with write permissions
 
 ---
 Copyright (c) 2019 The LibreFoodPantry Developers.
