@@ -69,7 +69,7 @@ Once you have based your project on this project, you should customize the follo
 
 ## Contributing
 
-Want to help? Great! Please see [CONTRIBUTING](CONTRIBUTING.adoc).
+Want to help? Great! Please see [CONTRIBUTING](CONTRIBUTING.md).
 
 ---
 Copyright (c) <YEAR> The LibreFoodPantry Developers.
