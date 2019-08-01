@@ -30,7 +30,7 @@ This document is a guide for Shop Managers on setting up a new shop organization
 
 ### Shop organization-level project board diagram:
 
-![GitHub Shop Board Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitHub_Setup_Shop_Board.png)
+![GitHub Shop Board Diagram](diagrams/GitHub_Setup_Shop_Board.png)
 
 
 ## Setting up the repository:
@@ -41,7 +41,7 @@ This document is a guide for Shop Managers on setting up a new shop organization
 1. Fork the repository you will be working on from the LibreFoodPantry organization to the shop organization
 
 ### GitHub organizations & respositories diagram:
-![GitHub Organizations and Repositories Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitHub_Free_Organizations_And_Repositories.png)
+![GitHub Organizations and Repositories Diagram](diagrams/GitHub_Free_Organizations_And_Repositories.png)
 
 
 ## Setting up the shop's user permissions:
@@ -55,7 +55,7 @@ This document is a guide for Shop Managers on setting up a new shop organization
 
 ### Users & permissions diagram:
 
-![GitHub Free Permissions Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitHub_Free_Setup_Users_And_Permissions.png)
+![GitHub Free Permissions Diagram](diagrams/GitHub_Free_Setup_Users_And_Permissions.png)
 
 ---
 Copyright (c) 2019 The LibreFoodPantry Developers.

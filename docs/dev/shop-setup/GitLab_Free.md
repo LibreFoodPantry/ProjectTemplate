@@ -21,7 +21,7 @@ This document is a guide for Shop Managers on setting up a new shop group on Git
 
 
 ### Users & permissions diagram:
-![GitLab Standalone Group Shop Users & Permissions Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitLab_Standalone_Group_Setup_Users_And_Permissions.png)
+![GitLab Standalone Group Shop Users & Permissions Diagram](diagrams/GitLab_Standalone_Group_Setup_Users_And_Permissions.png)
 
 
 
@@ -44,7 +44,7 @@ This document is a guide for Shop Managers on setting up a new shop group on Git
 - Note these columns are our recommendations from our preferred workflow, they can be changed to better suit your shop's workflow  
 
 ### Shop group-level issue board diagram:
-![GitLab Shop Board Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitLab_Setup_Shop_Board.png)
+![GitLab Shop Board Diagram](diagrams/GitLab_Setup_Shop_Board.png)
 
 
 ## Setting up the project:
@@ -55,7 +55,7 @@ This document is a guide for Shop Managers on setting up a new shop group on Git
 1. Fork the repository you will be working on from the LFP group to the shop group
 
 ### GitLab groups & projects diagram:
-![GitLab Standalone Group Groups & Projects Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitLab_Standalone_Group_Groups_And_Projects.png)
+![GitLab Standalone Group Groups & Projects Diagram](diagrams/GitLab_Standalone_Group_Groups_And_Projects.png)
 
 ---
 Copyright (c) 2019 The LibreFoodPantry Developers.

@@ -24,7 +24,7 @@ This document is a guide for Shop Managers on setting up a shop subgroup or a st
 
 
 ### Users & permissions diagram:
-![GitLab Shop Board Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitLab_Gold_Setup_Option1_Users_And_Permissions.png)
+![GitLab Shop Board Diagram](diagrams/GitLab_Gold_Setup_Option1_Users_And_Permissions.png)
 
 
 ## Setting up the shop issue board:
@@ -46,7 +46,7 @@ This document is a guide for Shop Managers on setting up a shop subgroup or a st
 - Note these columns are our recommendations from our preferred workflow, they can be changed to better suit your shop's workflow  
 
 ### Shop group-level issue board diagram:
-![GitLab Shop Board Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitLab_Setup_Shop_Board.png)
+![GitLab Shop Board Diagram](diagrams/GitLab_Setup_Shop_Board.png)
 
 
 ## Setting up the project:
@@ -57,7 +57,7 @@ This document is a guide for Shop Managers on setting up a shop subgroup or a st
 1. Fork the repository you will be working on from the LFP group to the shop group
 
 ### GitLab Gold subgroup groups and projects diagram:
-![GitLab Gold Option 1 Groups & Projects Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitLab_Gold_Setup_Option1_Groups_And_Projects.png)
+![GitLab Gold Option 1 Groups & Projects Diagram](diagrams/GitLab_Gold_Setup_Option1_Groups_And_Projects.png)
 
 
 ## Option 2: Standalone Group
@@ -78,7 +78,7 @@ This document is a guide for Shop Managers on setting up a shop subgroup or a st
 2. Add the shop developers to the shop group with developer permissions
 
 ### Users & permissions diagram:
-![GitLab Gold Standalone Group Users & Permissions Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitLab_Standalone_Group_Setup_Users_And_Permissions.png)
+![GitLab Gold Standalone Group Users & Permissions Diagram](diagrams/GitLab_Standalone_Group_Setup_Users_And_Permissions.png)
 
 
 ## Setting up the shop issue board:
@@ -100,7 +100,7 @@ This document is a guide for Shop Managers on setting up a shop subgroup or a st
 - Note these columns are our recommendations from our preferred workflow, they can be changed to better suit your shop's workflow  
 
 ### Shop group-level issue board diagram:
-![GitLab Shop Board Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitLab_Setup_Shop_Board.png)
+![GitLab Shop Board Diagram](diagrams/GitLab_Setup_Shop_Board.png)
 
 
 ## Setting up the project:
@@ -111,7 +111,7 @@ This document is a guide for Shop Managers on setting up a shop subgroup or a st
 1. Fork the repository you will be working on from the LFP group to the shop group
 
 ### GitLab groups & projects diagram:
-![GitLab Gold Standalone Group Groups & Projects Diagram](https://raw.githubusercontent.com/LibreFoodPantry/ProjectTemplate/shop_setup_documentation/docs/dev/shop-setup/diagrams/GitLab_Standalone_Group_Groups_And_Projects.png)
+![GitLab Gold Standalone Group Groups & Projects Diagram](diagrams/GitLab_Standalone_Group_Groups_And_Projects.png)
 
 ---
 Copyright (c) 2019 The LibreFoodPantry Developers.
