@@ -214,10 +214,10 @@ They will review your work for the following characteristics in roughly
 this order:
 
 * The DCO has been signed-off on *_each commit_* by its author
-  (see [Commits and Their Messages](dev/commits-and-their-messages.adoc))
+  (see [Commits and Their Messages](docs/dev/commits-and-their-messages.md))
 * All tests pass.
 * The merge-request title and description comprise a good final merge
-  commit message (see [Commits and Their Messages](dev/commits-and-their-messages.adoc)).
+  commit message (see [Commits and Their Messages](docs/dev/commits-and-their-messages.md)).
 * The changes address the issues it claims to address;
   nothing more and nothing less.
 * New tests are provided the test the new code that has been developed.
