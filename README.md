@@ -64,12 +64,12 @@ Now issue a merge request back to your master and request a review.
 Once you have based your project on this project, you should customize the following files:
 
 - README.md (this one)
-- CONTRIBUTING.adoc
+- CONTRIBUTING.md
 
 
 ## Contributing
 
-Want to help? Great! Please see [CONTRIBUTING](CONTRIBUTING.adoc).
+Want to help? Great! Please see [CONTRIBUTING](CONTRIBUTING.md).
 
 ---
 Copyright (c) <YEAR> The LibreFoodPantry Developers.
