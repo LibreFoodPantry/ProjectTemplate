@@ -1,7 +1,7 @@
-= Release Procedure
+# Release Procedure
 
 
-== Standard Release Procedure
+## Standard Release Procedure
 
 1. Test HEAD of master thoroughly.
 2. Review and update the change log.
@@ -12,10 +12,10 @@
 7. Push the new branch and tags.
 
 Consider using a tool to automate this process: see
-https://www.conventionalcommits.org/en/v1.0.0-beta.4/#tooling-for-conventional-commits[Tooling for Conventional Commits]
+[Tooling for Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#tooling-for-conventional-commits)
 
 
-== Patch Release Procedure
+## Patch Release Procedure
 
 A patch fixes a bug in an existing release.
 This is how to release a patch.

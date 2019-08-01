@@ -1,4 +1,4 @@
-= Commits and Their Messages
+# Commits and Their Messages
 
 Our commit message conventions are different depending on the type of commit
 we are documenting. Recall that in our workflow we work on an issue by pushing
@@ -11,7 +11,7 @@ and then we request another review. This continues until the reviewer(s) is
 satisfied, at which point the merge/pull-request is merged into upstream's
 master.
 
-TIP: We keep our merge/pull-requests and their corresponding feature
+> **TIP:** We keep our merge/pull-requests and their corresponding feature
 branch short-lived. The shorter the better. Ideally 1-2 days.
 Keeping them short-lived reduces the risk and size of integration conflicts.
 We keep them small by working hard to find simple solutions and breaking down
@@ -34,7 +34,7 @@ In this scenario
 we resolve the lexical conflicts in one or more number of commits,
 run all the tests, and resolve any test failures in still more commits.
 
-TIP: We never merge master into our feature branch if we have failing
+> **TIP:** We never merge master into our feature branch if we have failing
 tests in our feature branch. Otherwise, figuring out if the merged work
 is "good" will be difficult.
 
@@ -47,7 +47,7 @@ In the workflow described above, we can classify commits into three kinds:
   our feature branches.
 
 
-== Feature branch commit messages
+## Feature branch commit messages
 
 Feature branches, and their associated pull/merge-request and issue,
   are used for development.
@@ -67,7 +67,7 @@ branch.
 
 For feature branch commits we make a best effort to write good commit messages,
 mostly to remind ourselves what we did. They are often short and incomplete.
-However, there are a two elements of these commits that are *_very_* important.
+However, there are a two elements of these commits that are ***very*** important.
 
 * We must have a `Signed-off-by` line to indicate that we have signed-off
   on the DCO for the contents of the commit.
@@ -77,7 +77,7 @@ However, there are a two elements of these commits that are *_very_* important.
 These are needed to maintain the integrity of the licenses used by this project.
 
 
-== Branch synchronization commits
+## Branch synchronization commits
 
 In Git's terminology, these are "merge commits". However, these "merge commits"
 serve a different purpose than what we are calling merge commits. Branch
@@ -96,7 +96,7 @@ also sometimes useful to provide some explanation about the conflicts we
 resolved.
 
 
-== Final merge commit messages
+## Final merge commit messages
 
 Final merge commits are created when our pull/merge-request is merged into master.
 These commit messages summarize the changes that were made in the
@@ -110,28 +110,28 @@ As we work on a merge/pull-request,
   the final merge commit message.
 
 The structure of these commit messages
-  follow the https://www.conventionalcommits.org/[conventional commits]
+  follow the [conventional commits](https://www.conventionalcommits.org/)
   convention.
 Specifically, these commit messages have the following
   structure.
 
 
-.Merge commit message structure
+Merge commit message structure:
 
-----
+```
 <type>[optional scope]: <description>
 
 <body>
 
 <footer>
-----
+```
 
 The first line is the commit message's title/subject/header,
   and is crafted in the pull/merge-request's title.
 The body and footer are crafted in the description of the pull/merge-request.
 
 
-.Types
+### Types
 
 - `build` - changes to build system
 - `ci` - changes to CI or CD system
@@ -146,29 +146,40 @@ The body and footer are crafted in the description of the pull/merge-request.
 - `test` - fix or add tests for an existing feature
 
 
-.Scope
+### Scope
 
 The scope is optional. The scope is typically some component or feature of
   a system (e.g., `db`, `css`, `login`, `search`, `reports`, etc.).
 These are project specific.
 
 
-.Description
+### Description
 
 The description should be imperative, descriptive,
   and no more than 50 characters.
 
 
-.Body
+### Body
 
 The body of the commit message must describe the change that was made
 and why it was made.
 
 
-.Footer
+### Footer
 
 The footer section must contain one or more of the following lines.
 
 * `Co-authored-by` - for each co-author who helped create this
   pull/merge-request (include all authors).
 * `Closes #<issue-number>` - for each issue this pull/merge-request addresses.
+
+
+---
+Copyright (C) 2019 The LibreFoodPantry Developers.
+Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.3
+or any later version published by the Free Software Foundation;
+with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+A copy of the license is included in the section entitled "GNU
+Free Documentation License". If not, see
+<https://www.gnu.org/licenses/fdl-1.3.txt>.

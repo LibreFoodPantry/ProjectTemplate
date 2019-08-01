@@ -1,6 +1,6 @@
-= Issue Tracker
+# Issue Tracker
 
-== Issues
+## Issues
 
 - Bug report - report incorrect behavior of the system
 - User stories - propose a new feature
@@ -12,9 +12,9 @@
 - Pull-requests - associated with another issue contains the work to address that issue.
 
 
-== Labels
+## Labels
 
-.Type labels
+### Types
 
 - `t: Bug`
 - `t: User`
@@ -25,7 +25,7 @@
 - `t: Task`
 
 
-.Size labels
+### Size
 
 - `s: XS`
 - `s: S`
@@ -34,7 +34,7 @@
 - `s: XL`
 
 
-.Workflow labels
+### Workflow
 
 - `w: Backlog` - prioritized and in discovery
 - `w: Ready` - ready for sprint (enough for the next 2 sprints)
@@ -46,13 +46,14 @@
 - `w: To do` - Tasks to do (used by teams)
 - `w: Doing` - Tasks in progress (used by teams)
 
-.Flag labels
+
+### Flag
 
 - `f: Blocked`
 - `f: Stale`
 
 
-.Resolution labels
+### Resolution
 
 - `r: Fixed`
 - `r: Implemented`
@@ -64,14 +65,14 @@
 - `r: Abandoned`
 
 
-.Environment labels
+### Environment
 
 - `e: Development`
 - `e: Staging`
 - `e: Production`
 
 
-.Areas
+### Areas
 
 These vary by project.
 
@@ -79,8 +80,7 @@ These vary by project.
 - `a: Backend`
 
 
-
-== Boards
+## Boards
 
 * Product boards - used to prioritize and coordinate effort across a product.
     - Backlog - Prioritized issues being refined
@@ -95,3 +95,13 @@ These vary by project.
     - To do - Tasks to be completed
     - Doing - Tasks claimed and in progress
     - Done - Tasks, issues, and PRs that are closed and merged.
+
+---
+Copyright (C) 2019 The LibreFoodPantry Developers.
+Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.3
+or any later version published by the Free Software Foundation;
+with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+A copy of the license is included in the section entitled "GNU
+Free Documentation License". If not, see
+<https://www.gnu.org/licenses/fdl-1.3.txt>.
