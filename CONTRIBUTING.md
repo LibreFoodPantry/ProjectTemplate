@@ -1,6 +1,3 @@
-:numbered:
-:toc-position: left
-
 # Contributing
 
 We are grateful that you want to contribute to this project!
@@ -12,7 +9,7 @@ in the community are more likely to value and accept your contributions.
 
 ## LibreFoodPantry
 
-This project is a https://librefoodpantry.org[LibreFoodPantry] project.
+This project is a [LibreFoodPantry](https://librefoodpantry.org) project.
 We are a member of this larger community and shares its resources
 and policies including its
 
@@ -24,11 +21,11 @@ and policies including its
 - Communication Channels
 - Governance
 
-https://librefoodpantry.org[Please read them],
+[Please read them](https://librefoodpantry.org),
 uphold them, and use them when contributing to this project.
 
 
-== Communication
+## Communication
 
 In general:
 
@@ -41,20 +38,15 @@ socialize, etc.
 * Use email for personal, private matters.
 
 
-== Initial setup
+## Initial setup
 
 * Install and configure Git
-** Choose a name and email that you are comfortable with being public
-   that will be use to credit you with your work.
+    * Choose a name and email that you are comfortable with being public that will be use to credit you with your work.
 * Create a GitLab account
-** Use the same email as you did for configuring Git. This will allow
-   GitLab to link your commits to your account.
-** Fork the upstream project on GitLab. If you are working in a shop
-   your shop manager will create a shop fork. Use this instead of creating
-   your own. Your shop manager needs to give you permissions to push to
-   the shop fork.
+    * Use the same email as you did for configuring Git. This will allow GitLab to link your commits to your account.
+    * Fork the upstream project on GitLab. If you are working in a shop, your shop manager will create a shop fork. Use this instead of creating your own. Your shop manager needs to give you permissions to push to the shop fork.
 
-== Adding issues
+## Adding issues
 
 There are several types of issues in the issue tracker:
 
@@ -69,7 +61,7 @@ Issues can and should be added at anytime during development.
 If you see something, say something.
 
 
-== Grooming issues
+## Grooming issues
 
 Grooming is the process of prioritizing and refining issues into workable units.
 
@@ -101,7 +93,7 @@ boards looking for something to work on, plan to comment on issues and help
 prioritize, organized, and prepare them for work.
 
 
-== Refining and prioritizing issues
+## Refining and prioritizing issues
 
 This section overlaps with the previous. But now the assumption is that you
 have identified an issue that you would like to work on. Before working on
@@ -132,11 +124,11 @@ the following questions.
   smaller more manageable issues? If so, what would those smaller issues be?
 
 
-== Getting ready to work
+## Getting ready to work
 
 * Claim the issue.
-** If you can, assign it to yourself (and your team members).
-** If you can't assign it to yourself
+    * If you can, assign it to yourself (and your team members).
+    * If you can't assign it to yourself
    (i.e., you don't have the appropriate permissions to do so),
    comment on the card that you and your team will work on it.
 * Create a feature branch, make an empty commit, push it to your fork,
@@ -146,12 +138,12 @@ the following questions.
     after, other members can simply checkout the feature branch
     in their clone of the fork.)
 * If you are working in a team
-** Add the issue to your team's Sprint or Kanban board.
-** Create an initial "To Do" list on your team's board by thinking through
+    * Add the issue to your team's Sprint or Kanban board.
+    * Create an initial "To Do" list on your team's board by thinking through
   all the tasks that need to get done to complete the issue.
 
 
-== Work
+## Work
 
 Ideally, this stage is no longer than 2-3 days.
 The longer it takes to implement the solution for an issue, the
@@ -177,13 +169,13 @@ That's why it's important to carefully groom and refine issues.
 * Update merge-request title and description which will become the final
   merge-commit message.
 * Push changes regularly--even after each commit!
-** Others can track your progress.
-** Others may become motivated.
-** Triggers continuous integration tests and deployment to a demo
+    * Others can track your progress.
+    * Others may become motivated.
+    * Triggers continuous integration tests and deployment to a demo
    environment. Manually test in the demo environment.
 
 
-== Getting your work reviewed and merged
+## Getting your work reviewed and merged
 
 The last stage of contribution is getting your merge-request accepted and
 merged into upstream's master. This is often the longest stage (2-4 days)
@@ -198,23 +190,23 @@ master into your feature branch, fix any merge conflicts, and running all tests
 to ensure they all pass (or make more commits until they do). Don't forget
 to push your work as you go.
 
-----
+```
 $ get checkout <FEATURE_BRANCH>       # <1>
 $ git fetch upstream master:master    # <2>
 $ git merge master                    # <3>
 $ <test>                              # <4>
 $ git add . ; git commit -m "Integrate changes from upstream/master" ; git push  # <5>
-----
-<1> Make sure your feature branch is checked out.
-<2> Fetch changes in upstream's master and merge them into your local master.
+```
+1. Make sure your feature branch is checked out.
+2. Fetch changes in upstream's master and merge them into your local master.
     If this fails, probably your local master has diverged from upstream's
     master. This happens if you or someone else accidentally commits to
     master directly.
-<3> Merge master into your feature branch. This may result in merge conflicts
+3. Merge master into your feature branch. This may result in merge conflicts
     which you will need to carefully resolve and commit before moving on.
-<4> Run all tests. You may want to do some manual testing too.
+4. Run all tests. You may want to do some manual testing too.
     If any tests fail, make and commit fixes until all tests pass.
-<5> Stage, commit, and push your work.
+5. Stage, commit, and push your work.
 
 At this point, you should be ready for a final review. Remove the WIP status
 from your merge request and request a review from one or more reviewers.
@@ -222,10 +214,10 @@ They will review your work for the following characteristics in roughly
 this order:
 
 * The DCO has been signed-off on *_each commit_* by its author
-  (see link:dev/commits-and-their-messages.adoc[Commits and Their Messages])
+  (see [Commits and Their Messages](dev/commits-and-their-messages.adoc))
 * All tests pass.
 * The merge-request title and description comprise a good final merge
-  commit message (see link:dev/commits-and-their-messages.adoc[Commits and Their Messages]).
+  commit message (see [Commits and Their Messages](dev/commits-and-their-messages.adoc)).
 * The changes address the issues it claims to address;
   nothing more and nothing less.
 * New tests are provided the test the new code that has been developed.
