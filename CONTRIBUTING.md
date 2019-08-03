@@ -10,7 +10,7 @@ in the community are more likely to value and accept your contributions.
 ## LibreFoodPantry
 
 This project is a [LibreFoodPantry](https://librefoodpantry.org) project.
-We are a part of this larger community and shares its policies and resources.
+We are a part of this larger community and share its values, policies, and resources.
 
 
 ## Values
@@ -70,7 +70,7 @@ and transparent. We prefer issue trackers over chat communication because
 it is more organized.
 
 For more information about our issue trackers, issue boards, issues, and labels
-please read [Issue Tracker](issue-tracker.md).
+please read [Issue Tracker](docs/dev/issue-tracker.md).
 
 ## Initial setup
 
@@ -95,6 +95,8 @@ If you are working in a shop, your shop manager will create a shop fork.
 Use this instead of creating your own. Your shop manager needs to give you
 permissions to push to the shop fork.
 
+> For more information on the structure of a shop and how to set one up,
+please see [Shop Setup](docs/dev/shop-setup)
 
 ## Adding issues
 
@@ -110,7 +112,7 @@ There are several types of issues in the issue tracker:
 Issues can and should be added at anytime during development.
 If you see something, say something.
 
-See also [Issue Tracker](issue-tracker.md).
+See also [Issue Tracker](docs/dev/issue-tracker.md).
 
 
 ## Grooming issues
@@ -144,7 +146,7 @@ This is an ongoing process. When you look through the issue tracker and its
 boards looking for something to work on, plan to comment on issues and help
 prioritize, organized, and prepare them for work.
 
-See also [Issue Tracker](issue-tracker.md).
+See also [Issue Tracker](docs/dev/issue-tracker.md).
 
 
 ## Refining and prioritizing issues
@@ -177,7 +179,7 @@ the following questions.
   How much effort is required by each strategy? Can the issue be broken into
   smaller more manageable issues? If so, what would those smaller issues be?
 
-See also [Issue Tracker](issue-tracker.md).
+See also [Issue Tracker](docs/dev/issue-tracker.md).
 
 
 ## Getting ready to work
