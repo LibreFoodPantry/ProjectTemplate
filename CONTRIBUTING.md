@@ -95,8 +95,9 @@ If you are working in a shop, your shop manager will create a shop fork.
 Use this instead of creating your own. Your shop manager needs to give you
 permissions to push to the shop fork.
 
-> For more information on the structure of a shop and how to set one up,
-please see [Shop Setup](docs/dev/shop-setup)
+See also [Shop Setup](docs/dev/shop-setup) for more information on development
+shops and how to set one up.
+
 
 ## Adding issues
 
