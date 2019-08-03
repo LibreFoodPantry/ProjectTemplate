@@ -10,41 +10,104 @@ in the community are more likely to value and accept your contributions.
 ## LibreFoodPantry
 
 This project is a [LibreFoodPantry](https://librefoodpantry.org) project.
-We are a member of this larger community and shares its resources
-and policies including its
+We are a part of this larger community and share its values, policies, and resources.
 
-- Vision
-- Mission
-- Values
-- Code of Conduct
-- Licensing
-- Communication Channels
-- Governance
 
-[Please read them](https://librefoodpantry.org),
-uphold them, and use them when contributing to this project.
+## Vision
+
+LibreFoodPantry is a vibrant, welcoming community of clients, users, and developers who believe in developing and maintaining humanitarian projects. We enhance computer science education through involvement in instructor-led, free and open source software projects that support local food pantries.
+
+
+## Mission
+
+Our mission is to expand a community of students and faculty across multiple institutions who believe software can be used to help society. We strive to support local food pantries with quality, adaptable, free and open source software (FOSS) to help them serve their guests. Through learning opportunities within FOSS food pantry projects, we provide students with the perspective that computing can be used for social good.
+
+
+## Values
+
+To ensure a healthy and safe environment in which to collaborate and learn,
+and to help establish and promote effective development practices,
+we have adopted the following values.
+We expect all community members to read and uphold these values.
+
+* [Code of conduct](CODE_OF_CONDUCT.md)
+* Agile [values](https://agilemanifesto.org/)
+  and [principles](https://agilemanifesto.org/principles.html)
+* [FOSSisms](https://opensource.com/education/14/6/16-foss-principles-for-educators)
+
+
+## Licensing
+
+We license source code under [GPL v3](LICENSE.md)
+and content under [GFDL v1.3](LICENSE_FOR_CONTENT.md).
+For each commit, contributors must
+* Include a [copyright notice](copyright-notices/) on each new file
+* Sign-off on the [DCO v1.1](DCO.txt) in the commit message
+* And credit all co-authors in the commit message
+
+Please read
+[Licensing](docs/dev/licensing.md)
+for instructions on how to do any of the above.
 
 
 ## Communication
 
-In general:
+* Use GitHub's or GitLab's to "watch" issues and projects to receive
+  notifications when things change. This will help you remain aware.
+* Most of your communication (say 80%) should be through the issue tracker and
+  issue boards (called "projects" in GitHub). Use them to report problems,
+  propose features, strategize, give feedback, propose changes to policies
+  and procedures, ask questions, offer changes through merge requests,
+  review changes, etc. This is this preferred way to communicate as it
+  allows us to organize conversations around issues and because it is public.
+* Some of your communication (say 19%) should be through [#TODO chat system]
+  to ask questions, schedule meetings, hold meetings,
+  give or receive live help, give or receive demos or tutorials,
+  socialize, etc.
+* A minimum of your of your communication (say 1% or less)
+  should be through email. Only use email for personal, private matters.
 
-* Use the issue tracker to report problems,
-propose features, strategize, give feedback,
-propose changes to policies and procedures,
-offer changes through merge requests, review changes, etc.
-* Use chat to ask questions, schedule meetings, hold meetings,
-socialize, etc.
-* Use email for personal, private matters.
+There are several FOSSisms at play here:
 
+* FOSSism #1: It's all about community
+* FOSSism #5: If it isn't public, it didn't happen
+* FOSSism #6: Embrace radical transparency
+* FOSSism #9: Keep a history
+* FOSSism #16: Avoid uncommunicated work
+
+We prefer public issue trackers over email because it is public
+and transparent. We prefer issue trackers over chat communication because
+it is more organized.
+
+For more information about our issue trackers, issue boards, issues, and labels
+please read [Issue Tracker](docs/dev/issue-tracker.md).
 
 ## Initial setup
 
-* Install and configure Git
-    * Choose a name and email that you are comfortable with being public that will be use to credit you with your work.
-* Create a GitLab account
-    * Use the same email as you did for configuring Git. This will allow GitLab to link your commits to your account.
-    * Fork the upstream project on GitLab. If you are working in a shop, your shop manager will create a shop fork. Use this instead of creating your own. Your shop manager needs to give you permissions to push to the shop fork.
+At a minimum __create a GitHub and GitLab account__. This will allow you to
+create and comment on issues. Choose a name and email that you are
+comfortable with being public. GitHub and GitLab will identify you by
+this name and email when you make and comment on issues.
+They will also use this information to link your commits to your account.
+
+If you intend to make changes you will need to __install and configure Git__.
+
+* Download and install git from [git-scm.com](https://git-scm.com/).
+* [Configure Git](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
+
+When you configure Git, give the same name and email that you gave to GitHub
+and GitLab. Again, remember this name and email will become public, as git will
+include them in each commit you make, and when you contribute them, they
+will be publicly visible.
+
+Next, on GitHub or GitLab, __fork the project(s)__ you will be working on.
+If you are working in a shop, your shop manager will create a shop fork.
+Use this instead of creating your own. Your shop manager needs to give you
+permissions to push to the shop fork.
+
+See also [Shop Setup](docs/dev/shop-setup) for more information on development
+shops and how to set one up.
+
 
 ## Adding issues
 
@@ -59,6 +122,8 @@ There are several types of issues in the issue tracker:
 
 Issues can and should be added at anytime during development.
 If you see something, say something.
+
+See also [Issue Tracker](docs/dev/issue-tracker.md).
 
 
 ## Grooming issues
@@ -92,6 +157,8 @@ This is an ongoing process. When you look through the issue tracker and its
 boards looking for something to work on, plan to comment on issues and help
 prioritize, organized, and prepare them for work.
 
+See also [Issue Tracker](docs/dev/issue-tracker.md).
+
 
 ## Refining and prioritizing issues
 
@@ -122,6 +189,8 @@ the following questions.
   each strategy? What is the impact of the strategy on the rest of the system?
   How much effort is required by each strategy? Can the issue be broken into
   smaller more manageable issues? If so, what would those smaller issues be?
+
+See also [Issue Tracker](docs/dev/issue-tracker.md).
 
 
 ## Getting ready to work

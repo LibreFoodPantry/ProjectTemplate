@@ -1,4 +1,4 @@
-# Copyright, Licensing, and DCO
+# Licensing
 
 ## Copyright
 
