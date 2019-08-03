@@ -62,21 +62,21 @@ file and should be visible to reader of the document (not just the source).
 
 To make adding the notice to files easy, and and to ensure that the notice
 is consistent across the project, please use the copyright notice files
-in the `copyright-notices/` folder in the root of this project.
+in the `docs/dev/copyright-notices/` folder in the root of this project.
 
 For example you could start a new Java file as follows:
 
-    $ cp copyright-notices/source.js path/to/new/File.Java
+    $ cp docs/dev/copyright-notices/source.js path/to/new/File.Java
 
 Or you could prepend a notice to an existing source file:
 
-    $ cat copyright-notices/source.py path/to/existing/file.py > tempfile
+    $ cat docs/dev/copyright-notices/source.py path/to/existing/file.py > tempfile
     $ mv tempfile path/to/existing/file.py
     $ rm tempfile
 
 Or append a notice to an existing content file (e.g., documentation):
 
-    $ cat copyright-notices/source.md >> path/to/existing/document.md
+    $ cat docs/dev/copyright-notices/source.md >> path/to/existing/document.md
 
 Of course you can always just copy and paste the appropriate notice.
 
