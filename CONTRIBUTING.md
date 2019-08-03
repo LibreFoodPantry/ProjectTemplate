@@ -13,6 +13,16 @@ This project is a [LibreFoodPantry](https://librefoodpantry.org) project.
 We are a part of this larger community and share its values, policies, and resources.
 
 
+## Vision
+
+LibreFoodPantry is a vibrant, welcoming community of clients, users, and developers who believe in developing and maintaining humanitarian projects. We enhance computer science education through involvement in instructor-led, free and open source software projects that support local food pantries.
+
+
+## Mission
+
+Our mission is to expand a community of students and faculty across multiple institutions who believe software can be used to help society. We strive to support local food pantries with quality, adaptable, free and open source software (FOSS) to help them serve their guests. Through learning opportunities within FOSS food pantry projects, we provide students with the perspective that computing can be used for social good.
+
+
 ## Values
 
 To ensure a healthy and safe environment in which to collaborate and learn,
