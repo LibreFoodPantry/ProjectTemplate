@@ -13,7 +13,7 @@ Then, under `Settings` and `Branches`, you must protect `master` and turn on
 
 ![Screen shot of enabling DCO bot in GitHub](images/enable-dco-bot-in-github.png)
 
-## GitLab
+## GitLab Gold
 To enable DCO checks on GitLab, enable a Push Rule for the project that checks each commit for the DCO sign-off by going to `Settings` and `Repository` then entering the following regular expression in the `Commit message` box:
 
 ```
