@@ -5,12 +5,23 @@ can be automated. This should be done on the main upstream
 project for a project, not on forks. That means someone with appropriate
 permissions (e.g., a trustee or possibly a shop manager) must enable DCO checks.
 
+## GitHub
 To enable DCO checks on GitHub, enable
 [Probot's DCO bot](https://probot.github.io/apps/dco/).
 Then, under `Settings` and `Branches`, you must protect `master` and turn on
 `Require status checks to pass before merging` and then select `DCO`.
 
 ![Screen shot of enabling DCO bot in GitHub](images/enable-dco-bot-in-github.png)
+
+## GitLab
+To enable DCO checks on GitLab, enable a Push Rule for the project that checks each commit for the DCO sign-off by going to `Settings` and `Repository` then entering the following regular expression in the `Commit message` box:
+
+```
+Signed-off-by: \w+ \w+ <.+@.+\..+>
+```
+![Screen shot of enabling Push Eules to check for DCO in GitLab](images/gitlab-enable-push-rules-for-dco.png)
+
+- Note this will require every commit for the project to be signed (including merge commits). If this is not done, an error will be displayed in the GitLab web UI or in the command line when trying to push an un-signed commit to a branch or master.
 
 ---
 Copyright (C) 2019 The LibreFoodPantry Developers.
