@@ -10,6 +10,7 @@ To enable DCO checks on GitHub, enable
 Then, under `Settings` and `Branches`, you must protect `master` and turn on
 `Require status checks to pass before merging` and then select `DCO`.
 
+![Screen shot of enabling DCO bot in GitHub](images/enable-dco-bot-in-github.png)
 
 ---
 Copyright (C) 2019 The LibreFoodPantry Developers.
