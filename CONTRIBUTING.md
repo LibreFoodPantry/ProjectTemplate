@@ -304,7 +304,7 @@ integrate new changes into your merge-request if other merge requests are
 merged before yours.
 
 
-See also [Automating DCO Checks](docs/dev/automating-dco-checks.md).
+See also [Automating DCO Checks](docs/dev/automating-dco-checks/automating-dco-checks.md).
 
 ---
 Copyright (C) 2019 The LibreFoodPantry Developers.
