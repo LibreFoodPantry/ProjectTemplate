@@ -41,7 +41,7 @@ We expect all community members to read and uphold these values.
 We license source code under [GPL v3](LICENSE.md)
 and content under [GFDL v1.3](LICENSE_FOR_CONTENT.md).
 For each commit, contributors must
-* Include a [copyright notice](copyright-notices/) on each new file
+* Include a [copyright notice](docs/dev/copyright-notices/) on each new file
 * Sign-off on the [DCO v1.1](DCO.txt) in the commit message
 * And credit all co-authors in the commit message
 
