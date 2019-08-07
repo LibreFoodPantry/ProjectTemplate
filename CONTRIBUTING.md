@@ -200,8 +200,8 @@ See also [Issue Tracker](docs/dev/issue-tracker.md).
     * If you can't assign it to yourself
    (i.e., you don't have the appropriate permissions to do so),
    comment on the card that you and your team will work on it.
-* Create a feature branch, make an empty commit, push it to your fork,
-  and create a merge-request (with a WIP prefix) back to upstream's master.
+* Create a feature branch with `git checkout -b BRANCH-NAME`, make an empty commit with `git commit -s --allow-empty -m "empty commit" `, push it to your fork with `git push --set-upstream origin BRANCH-NAME`,
+  and create a merge-request (with a WIP prefix) back to LFP's master branch.
   (If you are in a team only one member needs to create and publish the
     feature branch and create the merge-request;
     after, other members can simply checkout the feature branch
