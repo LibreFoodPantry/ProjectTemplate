@@ -315,6 +315,8 @@ merged before yours.
 #### Getting your work reviewed and merged diagram:
 ![Getting your work reviewed and merged diagram](docs/dev/workflow-diagrams/getting-your-work-reviewed-and-merged.png)
 
+See also [Automating DCO Checks](docs/dev/automating-dco-checks/automating-dco-checks.md).
+
 ---
 Copyright (C) 2019 The LibreFoodPantry Developers.
 Permission is granted to copy, distribute and/or modify this document
