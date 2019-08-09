@@ -200,12 +200,19 @@ See also [Issue Tracker](docs/dev/issue-tracker.md).
     * If you can't assign it to yourself
    (i.e., you don't have the appropriate permissions to do so),
    comment on the card that you and your team will work on it.
+
+#### Claim the issue diagram:
+![Claim the issue diagram](docs/dev/workflow-diagrams/getting-ready-to-work-claim-the-issue.png)
+
 * Create a feature branch with `git checkout -b BRANCH-NAME`, make an empty commit with `git commit -s --allow-empty -m "empty commit" `, push it to your fork with `git push --set-upstream origin BRANCH-NAME`,
   and create a merge-request (with a WIP prefix) back to LFP's master branch.
   (If you are in a team only one member needs to create and publish the
     feature branch and create the merge-request;
     after, other members can simply checkout the feature branch
     in their clone of the fork.)
+
+#### Create a feature branch diagram:
+![Create a feature branch diagram](docs/dev/workflow-diagrams/getting-ready-to-work-create-a-feature-branch.png)
 * If you are working in a team
     * Add the issue to your team's Sprint or Kanban board.
     * Create an initial "To Do" list on your team's board by thinking through
@@ -243,6 +250,8 @@ That's why it's important to carefully groom and refine issues.
     * Triggers continuous integration tests and deployment to a demo
    environment. Manually test in the demo environment.
 
+#### Work diagram:
+![Work diagram](docs/dev/workflow-diagrams/work.png)
 
 ## Getting your work reviewed and merged
 
@@ -303,6 +312,8 @@ Note, even after all the reviewers are satisfied, you may still need to
 integrate new changes into your merge-request if other merge requests are
 merged before yours.
 
+#### Getting your work reviewed and merged diagram:
+![Getting your work reviewed and merged diagram](docs/dev/workflow-diagrams/getting-your-work-reviewed-and-merged.png)
 
 ---
 Copyright (C) 2019 The LibreFoodPantry Developers.
